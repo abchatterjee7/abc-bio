@@ -835,12 +835,19 @@
       </section>
       <!-- End Testimonials Section -->
 
-    <section id="services" class="services section">
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>Feel free to reach out for collaborations, freelance work. My services at disposal are<a href="service-details.html">Services</a> 👋</p>
-      </div>
-    </section>
+      <section id="services" class="services section py-5 bg-light">
+          <div class="container">
+              <div class="section-title text-center mb-5" data-aos="fade-up">
+                  <h2 class="display-4 fw-bold text-dark">Our Services</h2>
+                  <p class="lead text-muted">Let's collaborate on your next project! Explore my freelance services and reach out for opportunities.</p>
+              </div>
+              <div class="text-center" data-aos="fade-up" data-aos-delay="100">
+                  <a href="service-details.html" class="btn btn-outline-primary btn-lg d-inline-flex align-items-center service-link">
+                      <i class="bi bi-gear-fill me-2"></i> Discover Services
+                  </a>
+              </div>
+          </div>
+      </section>
 
       <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact section py-5">
@@ -1065,6 +1072,13 @@
         }
       });
     });
+  </script>
+  <script>
+      // Initialize AOS
+      AOS.init({
+          duration: 800,
+          once: true
+      });
   </script>
 
 </body>
