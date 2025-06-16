@@ -76,6 +76,14 @@ h6 {
   font-family: var(--heading-font);
 }
 
+.img-head {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin-right: 8px;
+  object-fit: contain;
+}
+
 /* PHP Email Form Messages
 ------------------------------*/
 .php-email-form .error-message {
