@@ -77,13 +77,55 @@ h6 {
 }
 
 .img-head {
-  width: 16px;
-  height: 16px;
+  width: 28px;
+  height: 28px;
   vertical-align: middle;
   margin-right: 8px;
   object-fit: contain;
 }
+.profile-img-wrapper {
+  position: relative;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
 
+.profile-img-wrapper img {
+  border: 4px solid #007bff;
+  border-radius: 15px;
+  max-width: 100%;
+  height: auto;
+}
+
+.profile-img-wrapper:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 123, 255, 0.3);
+}
+
+@media (max-width: 576px) {
+  .profile-img-wrapper img {
+    border-width: 3px;
+  }
+}
+.lead {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.bg-light {
+  background-color: #f8f9fa !important;
+  transition: all 0.3s ease;
+}
+
+.bg-light:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 123, 255, 0.2);
+}
+
+@media (max-width: 576px) {
+  .lead {
+    font-size: 1rem;
+  }
+}
 /* PHP Email Form Messages
 ------------------------------*/
 .php-email-form .error-message {
