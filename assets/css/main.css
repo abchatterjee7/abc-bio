@@ -178,6 +178,33 @@ h6 {
   }
 }
 
+.hover-shadow {
+  transition: all 0.3s ease-in-out;
+}
+.hover-shadow:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important;
+}
+.card {
+  border-radius: 10px !important;
+}
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+.portfolio-filters .nav-link {
+  transition: all 0.3s ease;
+}
+.portfolio-filters .nav-link:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+.portfolio-filters .filter-active {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
 /*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
