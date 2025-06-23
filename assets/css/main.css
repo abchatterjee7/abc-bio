@@ -205,6 +205,37 @@ h6 {
   border-color: #007bff;
 }
 
+
+/*
+CSS for Leetcode and Hacker rank
+*/
+.coding-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+.coding-link {
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+.coding-link:hover {
+  background-color: #f8f9fa;
+  transform: translateY(-2px);
+}
+.transition-all {
+  transition: all 0.3s ease;
+}
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+.text-primary {
+  color: #007bff !important;
+}
+.hover-text-danger:hover {
+  color: #dc3545 !important;
+}
+
 /*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
@@ -1602,11 +1633,4 @@ section,
   font-size: 20px;
   margin-right: 8px;
   color: var(--accent-color);
-}
-
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
 }
